@@ -3,6 +3,7 @@
 ini_set("xdebug.overload_var_dump", 1);
 
 //Promene
+
 echo '<b>Vypsane promene </b>';
 $int = 8; //nedesetinne cislo
 $float = 3.3; //desetine cislo
@@ -15,6 +16,7 @@ $array = array("Ahoj", array(1, 7.6, array(false))); //array
 var_dump($int, $float, $string, $boolean, $null, $array);
 
 //Operatory
+
 echo '<b>Vypsane matematicke operace </b>';
 echo "<br> <br>";
 
@@ -33,6 +35,7 @@ echo $a % $b; //Cislo se vydeli ale zapise se pouze zbytek
 echo "<br>";
 
 //Podminky
+
 echo '<b>Vypsane podminky </b>';
 echo "<br> <br>";
 $isTrue = false;
@@ -58,7 +61,9 @@ else if($a===$b) {
     echo "promena a je stejne cislo jako b"; 
 }
 echo "<br>";
+
 //Porovnavaci operatory
+
 echo '<b>Vypsane porovnavaci operatory </b>';
 echo "<br> <br>";
 $a= 3;
@@ -69,7 +74,9 @@ var_dump($a==$b);
 var_dump($a===$b);
 var_dump($a>=$b);
 var_dump($a<=$b);
+
 //Funkce
+
 echo '<b>Vypsane Funkce </b>';
 echo "<br> <br>";
 
@@ -126,10 +133,9 @@ function heslo($cislo) {
 echo heslo(strlen($heslo));
 echo rand(heslo.Length);
 echo "<br>";
-
-
  
 // funkce ktera nachazi sprosta slova ve vete
+
 ini_set("xdebug.overload_var_dump",1);
 
 $veta = "Tato veta testuje zda se v textu nachazi sproste slovo 'kurva' ";
@@ -145,6 +151,6 @@ function isValid($veta, $not) {
 }
 
 var_dump(isValid($veta, $not));
-
+echo "<br>";
 
 ?>
