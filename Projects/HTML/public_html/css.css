@@ -1,0 +1,76 @@
+body {
+    margin-top: 150px;
+    text-align: center;
+    background-color:lightblue;
+}
+div:hover img {
+    background-color: darkgreen;
+}
+.start{
+    background-color: brown;
+}
+#pic {
+    background-color: darkblue;
+    margin-bottom: 5px;
+}
+img {
+    width:350px;
+    height:auto;
+}
+table,td,th {
+    border: solid red 1px;
+    width:400px;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: darkslateblue;
+}
+nav table {
+    width: 100%;
+    background-color: rgba(255, 0, 64, 0.74);
+    
+}
+footer table {
+    width:100%;
+    background-color:green; 
+}
+th a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+th a:hover {
+    color: royalblue;
+}
+#odeslat {
+    margin-bottom: 10px;
+}
+#rovna {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#leva {
+    background-color: rgb(54, 161, 197);
+    width: auto;
+}
+#prava {
+    background-color: rgb(54, 161, 197);
+    width: auto;
+    border-left:solid green 1px;
+}
+#prava:hover {
+    background-color: rgb(59, 144, 172);
+    cursor: pointer;
+}
+#leva:hover {
+    background-color: rgb(59, 144, 172);
+    cursor: pointer;
+}
+a {
+    color:red;
+}
+input {
+    color: red;
+}
